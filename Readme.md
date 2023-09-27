@@ -34,9 +34,13 @@
         <ul>ng new "filename" : create new Angular project</ul>
         <ul>ng serve : to run the app in a web server </ul>
         <ul>ng g c "component name": generate a component with this ng</ul>
+        <ul>ng g s "service name" : generate a service for HTML endpoint </ul>
         <ul>ng --help  : to view all commands</ul>
     <h2>Bundles</h2>
         <p>All style sheets are compiled into a JavaScript Bundle</p>
     <h2>app-root</h2>
         <p>When you add codes on "app.component.html", the code you created would go under the app-root element that you have on "index.html"</p>
+    <h2>Dependency Injections</h2>
+    <p>Used to pass instances of services (or other classes) that a class depends on</p>
+    <span>services: for calling an HTTP service request</span>
 </div >

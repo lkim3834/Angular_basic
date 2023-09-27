@@ -1,4 +1,5 @@
 /* import Point class from point.ts file */ 
+
 import {Point} from './point'
 /* 1. code main.ts to open the file 
    2. "tsc main.ts" : to add the javascript file
