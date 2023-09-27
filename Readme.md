@@ -1,5 +1,6 @@
 <div class = "typescript" >
-    <h1> why do we need to compile typescript to javascript</h1>
+   <h1> TYPESCRIPT </h1>
+    <h2> why do we need to compile typescript to javascript</h2>
     <p>
     TypeScript, as a superset of JavaScript, introduces types and other features not present in JavaScript. Browsers and Node.js understand JavaScript but do not directly understand TypeScript. 
     </p>
@@ -25,5 +26,17 @@
 </ol>
 
 </div>
-<h1> Angular</h1>
-<ul> 1. library name as the module name: "from '@Angular/core'</ul>
+<div class = "Angular">
+<h1> ANGULAR</h1>
+    <h2> Module</h2>
+        <ul> library name as the module name: "from '@Angular/core'</ul>
+    <h2>Commands<h2>
+        <ul>ng new "filename" : create new Angular project</ul>
+        <ul>ng serve : to run the app in a web server </ul>
+        <ul>ng g c "component name": generate a component with this ng</ul>
+        <ul>ng --help  : to view all commands</ul>
+    <h2>Bundles</h2>
+        <p>All style sheets are compiled into a JavaScript Bundle</p>
+    <h2>app-root</h2>
+        <p>When you add codes on "app.component.html", the code you created would go under the app-root element that you have on "index.html"</p>
+</div >
