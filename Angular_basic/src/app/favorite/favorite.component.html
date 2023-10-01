@@ -1,1 +1,3 @@
+<input [(ngModel)]="title" (keyup.enter)="getTitle()">
+<p>{{title | titleCase}}</p>
 <i class="bi" [class.bi-0-circle]="isFavorite" [class.bi-0-circle-fill]="!isFavorite" (click)="onClick()"></i>
