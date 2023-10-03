@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_basic';
+  tweet = {
+    body: "Here is a body of tweet",
+    isLiked : true,
+    likesCount: 10
+  }
+  change(){
+
+  }
+
 }

@@ -2,4 +2,10 @@
 <!-- create the class, import, create component from "courses.component.ts" -->
 <courses></courses>`
 <app-authors></app-authors>
+<!-- child component -->
+<!-- [isFavorite]="data.favorite 에서 data.favorite의 값을
+isFavorite에 바인딩. 부모에서 자식 컴포넌트로 데이터 전달. (catch) () -->
 <favorite></favorite>
+<!-- create @input  -->
+<br>
+<like [likesCount]="tweet.likesCount" [isActive]="tweet.isLiked" (change)="tweet.isLiked"></like>

@@ -1,0 +1,12 @@
+
+
+
+.bi-heart-fill{
+  color : #ccc
+}
+.highlighted{
+  color : deeppink
+}
+.bi:hover{
+ cursor: pointer;
+}

@@ -9,6 +9,7 @@ import { CourseComponent } from './course/course.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitlePipe } from './title-case.pipe';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TitlePipe } from './title-case.pipe';
     AuthorsComponent,
     FavoriteComponent,
     // need to add the pipe using
-    TitlePipe
+    TitlePipe,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
